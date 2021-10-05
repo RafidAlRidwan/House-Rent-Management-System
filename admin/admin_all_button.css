@@ -1,0 +1,252 @@
+button.btn_admin{
+      background: transparent;
+      color: white;
+      border: 2px solid white;
+      font-size: 15px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      cursor: pointer;
+      display: inline-block;
+      -webkit-transition: all 0.4s;
+      -moz-transition: all 0.4s;
+      transition: all 0.4s;
+    }
+
+    button.btn_add{
+      background: #7677ff;
+      color: white;
+      border: 2px solid white;
+      font-size: 13px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      cursor: pointer;
+      display: inline-block;
+      -webkit-transition: all 0.4s;
+      -moz-transition: all 0.4s;
+      transition: all 0.4s;
+    }
+
+    button.btn_add:hover{
+      background-color: #b126f0;
+      color: white;
+      -webkit-transition: all 0.4s;
+      -moz-transition: all 0.4s;
+      transition: all 0.4s;
+    }
+
+    button.btn_edit:hover{
+      color: #34adc0;
+      -webkit-transition: all 0.4s;
+      -moz-transition: all 0.4s;
+      transition: all 0.4s;
+    }
+
+    button.btn_delete:hover{
+      color: #df4d5b;
+      -webkit-transition: all 0.4s;
+      -moz-transition: all 0.4s;
+      transition: all 0.4s;
+    }
+
+    button.btn_submit{
+      background-image: linear-gradient(to left, #7677ff,#b126f0);
+      color: white;
+      border: 2px solid white;
+      cursor: pointer;
+      display: inline-block;
+      -webkit-transition: all 0.4s;
+      -moz-transition: all 0.4s;
+      transition: all 0.4s;
+    }
+
+    button.btn_submit:hover{
+      background-image: linear-gradient(to right, #7677ff,#b126f0);
+      color: white;
+      -webkit-transition: all 0.4s;
+      -moz-transition: all 0.4s;
+      transition: all 0.4s;
+    }
+
+     .btn_edit{
+      color: #000;
+      -webkit-transition: all 0.4s;
+      -moz-transition: all 0.4s;
+      transition: all 0.4s;
+    }
+
+    .btn_edit:hover{
+      color: #34adc0;
+      -webkit-transition: all 0.4s;
+      -moz-transition: all 0.4s;
+      transition: all 0.4s;
+    }
+
+    .btn_delete{
+      color: #000;
+      -webkit-transition: all 0.4s;
+      -moz-transition: all 0.4s;
+      transition: all 0.4s;
+    }
+
+    .btn_delete:hover{
+      color: #df4d5b;
+      -webkit-transition: all 0.4s;
+      -moz-transition: all 0.4s;
+      transition: all 0.4s;
+    }
+
+
+    button.btn_details{
+      background: transparent;
+      color: #3c89da;
+      font-weight: 550;
+      border: 1px solid #3c89da;
+      text-transform: uppercase;
+      cursor: pointer;
+      display: inline-block;
+      -webkit-transition: all 0.4s;
+      -moz-transition: all 0.4s;
+      transition: all 0.4s;
+    }
+
+    button.btn_details:hover{
+      background-color: #437ac7;
+      border: 1px solid #437ac7;
+      font-weight: 550;
+      color: white;
+      -webkit-transition: all 0.4s;
+      -moz-transition: all 0.4s;
+      transition: all 0.4s;
+    }
+
+
+    .tbl_color{
+      background-image: linear-gradient(to left, #7677ff,#b126f0);
+      color: white;
+      cursor: pointer;
+      -webkit-transition: all 0.4s;
+      -moz-transition: all 0.4s;
+      transition: all 0.4s;
+    }
+
+    .tbl_color:hover{
+      background-image: linear-gradient(to right, #7677ff,#b126f0);
+      color: white;
+      -webkit-transition: all 0.4s;
+      -moz-transition: all 0.4s;
+      transition: all 0.4s;
+    }
+
+    .btn_home{
+      cursor: pointer;
+      display: inline-block;
+      -webkit-transition: all 0.4s;
+      -moz-transition: all 0.4s;
+      transition: all 0.4s;
+    }
+
+    .x_font{
+      font-size: 15px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      cursor: pointer;
+    }
+
+    .font_s{
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      cursor: pointer;
+    }
+  
+
+     .c_css:hover{
+      font-size: 15px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      cursor: pointer;
+    }
+    .c_css:hover{
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+   
+
+   button.btn_details_danger{
+      background: transparent;
+      color: #FF0000;
+      font-weight: 550;
+      border: 1px solid #FF0000;
+      text-transform: uppercase;
+      cursor: pointer;
+      display: inline-block;
+      -webkit-transition: all 0.4s;
+      -moz-transition: all 0.4s;
+      transition: all 0.4s;
+    }
+
+    button.btn_details_danger:hover{
+      background-color: #FF353B;
+      border: 1px solid #FF353B;
+      font-weight: 550;
+      color: white;
+      -webkit-transition: all 0.4s;
+      -moz-transition: all 0.4s;
+      transition: all 0.4s;
+    }
+
+  .logout {
+  border-radius: 6px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 17px;
+  transition: all 0.5s;
+  cursor: pointer;
+  
+}
+
+.logout span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.logout span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -25px;
+  transition: 0.7s;
+}
+
+.logout:hover span {
+  padding-right: 19px;
+}
+
+.logout:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.btn_home_l:hover{
+      background-image: linear-gradient(to left, #7677ff,#b126f0);
+      color: black;
+      -webkit-transition: all 0.4s;
+      -moz-transition: all 0.4s;
+      transition: all 0.4s;
+    }
+    .btn_home_r:hover{
+      background-image: linear-gradient(to right, #7677ff,#b126f0);
+      color: black;
+      -webkit-transition: all 0.4s;
+      -moz-transition: all 0.4s;
+      transition: all 0.4s;
+    }
+
+
+
+
+    
